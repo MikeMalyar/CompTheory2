@@ -23,14 +23,13 @@ public class Lab2 {
                     String line = sc.nextLine();
                     writer = new FileWriter(output);
                     writer.write("Output file for line " + index + " \"" + line + "\"\n\n");
-                    System.out.println("\n\nProcessing line " + index + " \"" + line + "\"\n");
+                    System.out.println("Processing line " + index + " \"" + line + "\"");
                     writer.write("Tokens found:\n");
-                    System.out.println("Tokens found:");
                     LinkedList<String> tokens = getLineTokens(line);
                     if (checkTokens(tokens)) {
-                        System.out.println("\nLine belongs to this grammar language");
+                        System.out.println("Line belongs to this grammar language\n");
                     } else {
-                        System.out.println("\nLine doesn't belong to this grammar language");
+                        System.out.println("Line doesn't belong to this grammar language\n");
                     }
                     writer.flush();
                 } catch (IllegalStateException ex) {
@@ -55,7 +54,6 @@ public class Lab2 {
                 String token = getToken(line.substring(i));
                 res.add(token);
                 writer.write("<" + Token.fromString(token) + ", " + token + ">" + "\n");
-                System.out.println("<" + Token.fromString(token) + ", " + token + ">");
                 i += token.length() - 1;
             } catch (IllegalStateException ignored) {
                 throw new IllegalStateException("An error occurred at position " + i + " (positions start from 0)");
