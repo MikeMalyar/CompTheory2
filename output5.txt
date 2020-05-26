@@ -1,0 +1,16 @@
+Output file for line 5 "for i1:=0 do i2:=i1"
+
+Tokens found:
+<TOKEN_FOR, for>
+<TOKEN_SPACE,  >
+<TOKEN_I1, i1>
+<TOKEN_EQUALS, :=>
+<TOKEN_0, 0>
+<TOKEN_SPACE,  >
+<TOKEN_DO, do>
+<TOKEN_SPACE,  >
+<TOKEN_I2, i2>
+<TOKEN_EQUALS, :=>
+<TOKEN_I1, i1>
+
+Line doesn't belong to this grammar language

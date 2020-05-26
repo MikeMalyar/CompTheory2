@@ -1,0 +1,6 @@
+Output file for line 3 "for i:=55 to 30 do i3:=1"
+
+Tokens found:
+<TOKEN_FOR, for>
+<TOKEN_SPACE,  >
+An error occurred at position 4 (positions start from 0)

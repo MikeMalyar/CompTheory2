@@ -1,0 +1,5 @@
+for i1:=0 to 10 do i2:=1
+for for i1:=0 to 10 do i2:=1
+for i:=55 to 30 do i3:=1
+i1:=55 to 10 do i1:=1
+for i1:=0 do i2:=i1

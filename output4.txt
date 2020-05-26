@@ -1,0 +1,19 @@
+Output file for line 4 "i1:=55 to 10 do i1:=1"
+
+Tokens found:
+<TOKEN_I1, i1>
+<TOKEN_EQUALS, :=>
+<TOKEN_55, 55>
+<TOKEN_SPACE,  >
+<TOKEN_TO, to>
+<TOKEN_SPACE,  >
+<TOKEN_1, 1>
+<TOKEN_0, 0>
+<TOKEN_SPACE,  >
+<TOKEN_DO, do>
+<TOKEN_SPACE,  >
+<TOKEN_I1, i1>
+<TOKEN_EQUALS, :=>
+<TOKEN_1, 1>
+
+Line doesn't belong to this grammar language
