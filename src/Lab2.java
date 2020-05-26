@@ -28,10 +28,8 @@ public class Lab2 {
                     System.out.println("Tokens found:");
                     LinkedList<String> tokens = getLineTokens(line);
                     if (checkTokens(tokens)) {
-                        writer.write("\nLine belongs to this grammar language");
                         System.out.println("\nLine belongs to this grammar language");
                     } else {
-                        writer.write("\nLine doesn't belong to this grammar language");
                         System.out.println("\nLine doesn't belong to this grammar language");
                     }
                     writer.flush();

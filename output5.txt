@@ -12,5 +12,3 @@ Tokens found:
 <TOKEN_I2, i2>
 <TOKEN_EQUALS, :=>
 <TOKEN_I1, i1>
-
-Line doesn't belong to this grammar language

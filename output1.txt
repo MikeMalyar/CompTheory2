@@ -17,5 +17,3 @@ Tokens found:
 <TOKEN_I2, i2>
 <TOKEN_EQUALS, :=>
 <TOKEN_1, 1>
-
-Line belongs to this grammar language
